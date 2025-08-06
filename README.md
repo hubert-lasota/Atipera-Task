@@ -1,6 +1,6 @@
-## GitHub Token Required for Integration Tests
+## GitHub Token Required for Tests
 
-Before running integration tests, you must configure a **GitHub Personal Access Token** in your `application.yml` file.
+Before running tests, you must configure a **GitHub Personal Access Token** in your `application.yml` file.
 
 ### How to generate the token
 
@@ -14,6 +14,7 @@ Before running integration tests, you must configure a **GitHub Personal Access 
 github:
   access-token: ghp_your_generated_token
 ```
+
 To run all tests, execute the following command in the root directory:
 
 ```bash

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: atiperatask
+
+
+github:
+  base-url: https://api.github.com
+  api-version: 2022-11-28
+  access-token: <YOUR_TOKEN_HERE>
+  content-type: application/vnd.github+json
